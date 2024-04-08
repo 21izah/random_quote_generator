@@ -1,0 +1,38 @@
+.containerColumn {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+}
+body {
+  margin: 0;
+  background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 20px;
+  padding: 30px 30px;
+  background-color: burlywood;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.containerHeading {
+  font-size: large;
+  color: antiquewhite;
+}
+.author {
+  font-size: small;
+  color: antiquewhite;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: burlywood;
+  cursor: pointer;
+}
